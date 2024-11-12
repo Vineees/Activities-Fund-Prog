@@ -1,4 +1,6 @@
 Algoritmo "somanotas"
+//01 - Elabore um algoritmo para ler 3 notas de um aluno.
+//A seguir, calcule e imprima a média aritmética do aluno.
 Var
 // Seção de Declarações das variáveis
 nota1, nota2, nota3: real;
