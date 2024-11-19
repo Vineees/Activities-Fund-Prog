@@ -1,13 +1,16 @@
 Algoritmo "somanotas"
 //01 - Elabore um algoritmo para ler 3 notas de um aluno.
-//A seguir, calcule e imprima a média aritmética do aluno.
+//A seguir, calcule e imprima a mï¿½dia aritmï¿½tica do aluno.
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
 nota1, nota2, nota3: real;
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+escreval("Escreva Nota 1:")
 leia(nota1)
+escreval("Escreva Nota 2:")
 leia(nota2)
+escreval("Escreva Nota 3:")
 leia(nota3)
 
 escreval("Resultado:")

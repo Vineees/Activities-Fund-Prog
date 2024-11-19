@@ -1,15 +1,19 @@
 Algoritmo "aumentosalario"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Telmo
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Descriï¿½ï¿½o   : Elabore um programa que leia o salÃ¡rio de um funcionÃ¡rio e 
+//     calcule o valor do seu aumento. 
+//     Para salÃ¡rios superiores a R$ 3.000,00, calcule um aumento de 10%. 
+//     Para os salÃ¡rios inferiores ou iguais a R$ 3.000,00, o aumento Ã© de 20%.
+// Autor(a)    : Marcos VinÃ­cius Souza Melo
 // Data atual  : 18/11/2024
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    salario, aumento:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   escreval("Insira o salÃ¡rio:")
    leia(salario)
    se (salario <= 3000) entao
       aumento := salario + (salario/100 * 20)
@@ -19,8 +23,5 @@ Inicio
    fimse
 
    escreva("Seu Salario:",aumento:9:2)
-
-
-
-
+   
 Fimalgoritmo

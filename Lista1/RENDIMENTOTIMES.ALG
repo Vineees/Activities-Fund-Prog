@@ -1,16 +1,16 @@
 Algoritmo "rendimentotimes"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Telmo
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 18/11/2024
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    chutes1, gols1, chutes2, gols2:inteiro
    rendimento1, rendimento2: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    escreval("Chutes time A:")
    leia(chutes1)
    escreval("Gols time A:")
@@ -23,8 +23,8 @@ Inicio
    rendimento1:=((gols1/chutes1)*100)
    rendimento2:=((gols2/chutes2)*100)
 
-   escreval("Chutes Time A:",chutes1, "Gols Time A:",gols1, "Rediemento:",rendimento1,"%")
-   escreval("Chutes Time B:",chutes2, "Gols Time B:",gols2, "Rediemento:",rendimento2,"%")
+   escreval("Chutes Time A:",chutes1, "Gols Time A:",gols1, "Redimento:",rendimento1,"%")
+   escreval("Chutes Time B:",chutes2, "Gols Time B:",gols2, "Redimento:",rendimento2,"%")
 
    se (rendimento1 > rendimento2) entao
       escreval("Time mais eficaz: Time A")

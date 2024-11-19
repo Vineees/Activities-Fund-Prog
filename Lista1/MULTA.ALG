@@ -1,26 +1,27 @@
 Algoritmo "multa"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Telmo
-// Descrição   : Elabore um programa que leia a velocidade de um carro.
+// Descriï¿½ï¿½o   : Elabore um programa que leia a velocidade de um carro.
 //Se a velocidade ultrapassar 80 km/h (limite de velocidade da via),
 //informe uma mensagem dizendo que ele foi multado e o valor da multa.
 //A multa vai custar R$ 10,00 por cada km/h acima do limite.
 // Autor(a)    : Marcos Vinicius Souza Melo
 // Data atual  : 18/11/2024
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    vel:real
    multa:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   escreval("Escreva a Velocidade:")
    leia(vel)
    se (vel > 80) entao
       multa := (vel-80) * 10
 
       escreval("Valor multa:",multa:9:2)
    senao
-      escreval("Não Foi Multado!")
+      escreval("NÃ£o Foi Multado!")
    fimse
 
 
