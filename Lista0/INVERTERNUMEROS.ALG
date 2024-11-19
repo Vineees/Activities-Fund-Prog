@@ -1,21 +1,21 @@
 Algoritmo "inverternumeros"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Telmo 
-// Descrição   : Elabore um algoritmo para ler um número de 2 dígitos.
-//               A seguir, informe o número invertido.
-// Autor(a)    : Marcos Vinicius Souza Melo
+// Descriï¿½ï¿½o   : Elabore um algoritmo para ler um nï¿½mero de 2 dï¿½gitos.
+//               A seguir, informe o nï¿½mero invertido.
+// Autor(a)    : Marcos VinÃ­cius Souza Melo
 // Data atual  : 18/11/2024
 Var
-// Seção de Declarações das variáveis
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
 num: inteiro
-unidade, dezena, numeroInvertido: real
+unidade, dezena, numeroInvertido: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 leia(num)
-dezena := num / 10  // Obtém a dezena
-unidade := num % 10  // Obtém a unidade
+dezena := num / 10  // Obtï¿½m a dezena
+unidade := num % 10  // Obtï¿½m a unidade
 numeroInvertido := unidade * 10 + dezena
-escreva(numeroInvertido:2:1)
+escreva(numeroInvertido)
 
 
 Fimalgoritmo
