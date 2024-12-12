@@ -1,21 +1,21 @@
 Algoritmo "custoconce"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : 04 - O custo à concessionária (CC) de um carro novo é o
-//             custo de fábrica (CF) adicionado 40% de impostos sobre o valor do custo
-//             de fábrica (CF). Supondo que o percentual de lucro da
-//             concessionária é de 30% sobre o custo que a mesma recebe,
+// Descriï¿½ï¿½o   : 04 - O custo ï¿½ concessionï¿½ria (CC) de um carro novo ï¿½ o
+//             custo de fï¿½brica (CF) adicionado 40% de impostos sobre o valor do custo
+//             de fï¿½brica (CF). Supondo que o percentual de lucro da
+//             concessionï¿½ria ï¿½ de 30% sobre o custo que a mesma recebe,
 //             crie um algoritmo que leia o custo de
-//             fábrica e calcule e informe o preço de venda ao consumidor (PVC).
+//             fï¿½brica e calcule e informe o preï¿½o de venda ao consumidor (PVC).
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/11/2024
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 cf, cc, pvc: real
 tax, lccc: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
 tax:=40
 lccc:=30
