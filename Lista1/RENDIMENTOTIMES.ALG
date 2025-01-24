@@ -12,7 +12,7 @@ Var
 Inicio
    // Se��o de Comandos, procedimento, fun��es, operadores, etc...
    escreval("Chutes time A:")
-   leia(chutes1)
+   leia(chutes1))
    escreval("Gols time A:")
    leia(gols1)
    escreval("Chutes time B:")

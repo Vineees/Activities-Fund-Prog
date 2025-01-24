@@ -21,7 +21,7 @@ Inicio
    se (salario > 3000) entao
       aumento := salario + (salario/100 * 10)
    fimse
+   escreval ("Aumento: ", aumento - salario)
+   escreval("Seu Salario:",aumento:9:2)
 
-   escreva("Seu Salario:",aumento:9:2)
-   
 Fimalgoritmo

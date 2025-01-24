@@ -1,11 +1,11 @@
-Algoritmo "semnome"
+Algoritmo "B1 - Marcos Vinicius Souza"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Telmo
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Marcos Vincius Souza Melo
 // Data atual  : 12/12/2024
 Var
-   age, filhos, x, y, end, peso, MaiorPeso, MenorAge, PesoFlag, IdosoFlag: inteiro
+   age, filhos, x, y, end, peso, MaiorPeso, MenorAge, PesoFlag, IdosoFlag, IdosoSemFilhoFlag: inteiro
    PercObesa, PercIdoso: real
 
 Inicio
@@ -36,7 +36,10 @@ Inicio
          PesoFlag <- PesoFlag + 1
       fimse
       //Verificando Idoso sem Filhos
-      se (age > 65) e (filhos = 0) entao
+      se (age > 65) entao
+         se (filhos = 0) entao
+            IdosoSemFilhoFlag <- IdosoSemFilhoFlag + 1
+         fimse
          IdosoFlag <- IdosoFlag + 1
       fimse
       //Maior Peso
@@ -47,7 +50,7 @@ Inicio
 
    //Resolvando Valores
    PercObesa <- (PesoFlag / end) * 100
-   PercIdoso <- (IdosoFlag / end) *100
+   PercIdoso <- (IdosoSemFilhoFlag / IdosoFlag) *100
 
    escreval(" ")
    escreval("Menor Idade              :", MenorAge)
